@@ -1,0 +1,17 @@
+{
+    "name": "themestyles",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "node node_modules/gulp/bin/gulp.js",
+        "watch": "node node_modules/gulp/bin/gulp.js watch"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-strip-css-comments": "^2.0.0"
+    },
+    "dependencies": {
+        "npm": "^5.7.1"
+    }
+}
