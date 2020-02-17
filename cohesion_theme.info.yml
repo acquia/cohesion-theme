@@ -1,0 +1,22 @@
+name: Acquia Cohesion minimal
+type: theme
+description: A minimal theme as a basis for Acquia Cohesion powered websites. It includes some basic styling for Drupal admin functions.
+core: 8.x
+
+# Defines the base theme.
+base theme: stable
+
+libraries:
+  - cohesion_theme/global-styling
+
+cohesion: true
+
+# Defines theme regions available.
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  dx8_hidden: Acquia Cohesion hidden region
