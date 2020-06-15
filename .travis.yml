@@ -1,0 +1,9 @@
+language: php
+
+script:
+  - yarn
+  - yarn test
+
+notifications:
+  slack:
+    secure: 3Gd4knmcC3LCg4ATELsl+4MHD77t/Vsw/T5CesFBckwGIEU9PN7AM0ToKbVwNx9MltXqIhtzk+wCmVrg6+GH7itlSPy+dhQlH37ML0RxUrD9dVj2hE2EGl6jY+RWuAOtcCQirgBjCgnHzFxUuovPNq06YB1mQh33qv6+S54C/v5jsJYTXFQYD+ihimkn+k7WhL4QlSmHFej2Y9O0mHB6aj8+E5vbeT7SRRNJ/x+JajIViqvQz3HDmW3XoUFS7SPuYXpSLHKuiLOxGMKEx7jbPh1Q+jflGDnQGzgH83dq0a17iUxNeCg2uyt6xRqcBTjHv7eIX2uC6ZVZbqFGG77AXRST8HnchdixYoR85jMI3Heyi7Pnhc/KZUnv+TyeAqbTzIByYvUaNAZcw/liIuLrN631GSjoOVm8hVzQ7FR3r0+fyWf3G+oUZxR/tUYtnn/BfYdVq5KmfN9Vc9m+cFSrXsKTCKrBaIcF6JIsbU2UH6NPDgSjNKPkivjwlLnA8PIQNRzI3B6Qvl2qFlP1LFReh5JrRMDd8qZ2ueyCnm5aMxkT33hdVKlYmqx5EeGd8dDxCmwJ9yA5IE9qeeQNereNMo67hyiON9rG3KOJILOFVXuCfUorxoI2dy/XsdvxSe15DitMlHMejHbAIGSmAK5X32u/J2krC+84FRR/opNFeYg=
