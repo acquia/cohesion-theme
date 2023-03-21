@@ -1,0 +1,122 @@
+// --------------- ALL DX8 THEME FORMS  --------------- //
+
+#user-login-form,
+#user-register-form,
+#user-pass,
+#search-form,
+#search-block-form {
+    border: 1px solid $dx8-grey-2;
+    margin-top: -1px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+
+    .form-item {
+        padding: 15px 0;
+
+        .description {
+            margin-top: 10px;
+        }
+    }
+
+    .form-actions {
+        padding: 15px 0;
+    }
+
+    label {
+        display: table; // force label above fields
+        margin-bottom: 10px;
+    }
+
+    input,
+    select {
+        max-width: 100%; // stop fields overflowing parent container
+    }
+
+    // details element
+    details.form-wrapper {
+        border-bottom-width: 0;
+        margin: 15px 0;
+
+        .dx8-details-content {
+            border: 1px solid $dx8-grey-2;
+            border-top: 0;
+            padding: 15px 30px;
+
+            fieldset {
+                border: 0;
+            }
+
+            legend {
+                position: relative;
+                top: 15px;
+                padding: 10px 0;
+            }
+
+            > fieldset > legend {
+                width: 100%;
+                border-bottom: 1px solid $dx8-grey-2;
+            }
+        }
+
+        summary {
+            padding: 10px;
+            background: $dx8-grey-2;
+        }
+    }
+
+    .form-type-checkbox {
+        label {
+            margin-bottom: 0;
+        }
+    }
+
+    .form-checkbox {
+        margin-right: 10px;
+        float: left;
+    }
+}
+
+
+// ---------------  SEARCH FORMS  --------------- //
+
+#edit-help-link {
+    display: block;
+    margin-top: 10px;
+}
+
+.search-block-form {
+    padding: 15px 0;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+}
+
+#search-block-form {
+    padding: 0;
+    border: 0;
+
+    // clearfix
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+
+    .form-item {
+        margin-right: 15px;
+    }
+
+    .form-item,
+    .form-actions {
+        float: left;
+        padding: 0;
+    }
+
+    input {
+        margin: 0;
+    }
+}
