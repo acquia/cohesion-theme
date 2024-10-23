@@ -1,0 +1,22 @@
+name: Site Studio minimal
+type: theme
+description: A minimal theme as a basis for Site Studio powered websites. It includes some basic styling for Drupal admin functions.
+core_version_requirement: ^10.2.2 || ^11
+
+# Defines the base theme.
+base theme: stable
+
+libraries:
+  - cohesion_theme/global-styling
+
+cohesion: true
+
+# Defines theme regions available.
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  dx8_hidden: Site Studio hidden region
