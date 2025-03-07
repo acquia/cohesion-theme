@@ -1,0 +1,14 @@
+{
+    "name": "acquia/cohesion-theme",
+    "description": "Site Studio minimal theme",
+    "license": "GPL-2.0+",
+    "authors":[
+        {
+            "name": "Acquia Engineering",
+            "homepage": "https://www.acquia.com",
+            "role": "Maintainer"
+        }
+    ],
+    "type": "drupal-theme",
+    "version": "8.0.3"
+}
