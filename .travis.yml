@@ -1,0 +1,5 @@
+language: php
+
+script:
+  - yarn
+  - yarn test

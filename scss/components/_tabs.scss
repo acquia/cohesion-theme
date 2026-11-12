@@ -1,0 +1,51 @@
+// --------------- SYSTEM TABS  --------------- //
+
+.dx8-tabs {
+    background-color: $dx8-grey-2;
+
+    // min-width 600px
+    @media screen and (min-width: 37.5em) {
+        height: auto;
+        margin: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    li {
+        a {
+            color: $dx8-black;
+            background: $dx8-grey-3;
+            display: block;
+            font-size: 0.929em;
+            padding: 11px 20px;
+
+            &:hover {
+                background: $dx8-grey-5;
+            }
+        }
+
+        &.is-active a {
+            background: $dx8-grey-1;
+            pointer-events: none;
+        }
+
+        // max-width 600px
+        @media screen and (max-width: 37.5em) {
+            display: block;
+            margin: 0;
+        }
+
+        // min-width 600px
+        @media screen and (min-width: 37.5em) {
+            display: block;
+            float: left; /* LTR */
+            vertical-align: bottom;
+            margin: 0 1px 0 0; /* LTR */
+
+            [dir="rtl"] & {
+                margin: 0 0 0 1px;
+                float: right;
+            }
+        }
+    }
+}
